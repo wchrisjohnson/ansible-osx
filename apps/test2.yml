@@ -3,5 +3,5 @@
 
   tasks:
     - name: print from playbook
-      debug: msg="in spencer-gibb/ansible-osx/apps/test2.yml"
+      debug: msg="in wchrisjohnson/ansible-osx/apps/test2.yml"
 

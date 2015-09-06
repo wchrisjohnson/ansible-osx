@@ -3,7 +3,7 @@
 
   tasks:
     - name: print from playbook
-      debug: msg="in spencer-gibb/ansible-osx/test.yml"
+      debug: msg="in wchrisjohnson/ansible-osx/test.yml"
 
     - name: get time from ansible-osx/modules
       action: time
