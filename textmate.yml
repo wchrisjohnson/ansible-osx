@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install TextMate 2
+      mac_pkg: pkg_type=app
+               url=https://github.com/textmate/textmate/releases/download/v2.0-beta.7.10/TextMate_2.0-beta.7.10.tbz
+	       archive_type=zip archive_path=TextMate.app
+      sudo: yes
